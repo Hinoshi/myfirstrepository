@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> css avance</title>
+	<link rel="stylesheet" type="text/css" href="exemple.css">
+	<link href="https:/fonts.googleapis.com/css?family=open+sans" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<h1> CSS avance</h1> 
+	
+    <div>
+    	<p>un premier Paragraphe</p>
+    	<p>un deuxieme paragraphe</p>
+    	<p>un troisieme paragraphe</p>
+    </div>
+
+    	 <h1>les formulaire</h1>
+	 <form method="post" action="traitement.php">
+
+	 	<label for="prenom"> entrer votre Prenom</label>
+	 	<input type="text" id="prenom" name="prenom" placeholder="ex. junior"><br><br>
+
+	 	<label for="passwort"> entrer votre mot de passe</label>
+	 	<input type="password" id="passwort" name="passwort"><br>
+
+	 	<label for="date de naissance"> entrer votre date de naissance</label>
+	 	<input type="date" id="date de naissance" name=" date de naissance"><br><br>
+
+	 	Informations sur le voyage!!<br>
+
+	 	<label for="date de depart"> entrer la date de depart</label>
+	 	<input type="date" id="date de depart" name="date de depart" required="required"><br><br>
+
+	 	<label for="date de retour"> entrer la date de retour </label>
+	 	<input type="date" id="date de retour" name="date de retour" required="required"><br><br>
+
+	 	<label for="email"> entrer votre Email</label>
+	 	<input type="email" id="email" name="email"><br><br>
+
+	 	<label for="adresse url"> entrer votre adresse url</label>
+	 	<input type="url" id="adresse url" name=" adresse url"><br><br>
+
+	 	<label for="number"> combien de Kilo vendez vous</label>
+	 	<input type="number" id="number" name="number" required="required"><br><br>
+
+	 	homme ou femme?<br>
+	 	<input type="radio" id="homme" name="sexe" value="homme " checked="checked">
+	 	<label for="homme">un homme</label><br>
+	 	<input type="radio" id="femme" name="sexe" value="femme">
+	 	<label for="femme">femme </label><br>
+
+	 	Mineurs ou majeur?<br>
+	 	<input type="radio" id="mineur" name="age" value="mineur">
+	 	<label for="mineur">un mineur</label><br>
+	 	<input type="radio" id="majeur" name="age" value="majeur" checked="checked">
+	 	<label for="majeur"> un majeur</label><br><br>
+
+	 	quels sports partiquez vous?<br>
+	 	<input type="checkbox" id="Kung-fu" name=" sports" value="Kung-fu" checked="checked">
+	 	<label for="Kung-fu"> le Kung-fu</label><br>
+	 	<input type="checkbox" id="karate" name="sports" value="karate" checked="checked">
+	 	<label for="karate"> le karate</label><br>
+	 	<input type="checkbox" id="aucun sports" name="sports" value="aucun sports" checked="checked">
+	 	<label for="aucun sports">aucun sports</label><br>
+
+
+
+	 	<label for="pesentation">une petite presentation</label>
+	 	<textarea id="presentation" name="presentation"></textarea>
+	 	<br><br>
+	 	<input type="submit" value="envoyer" ><br><br>
+
+	 	ou habitez vous?<br>
+
+	 	<select name="pays">
+	 		<optgroup label="europe">
+	 		    <option value="france" selected="selected"> france</option>
+	 	    </optgroup>
+	 	    <optgroup label="afrique">
+	 		    <option value="cameroun">cameroun</option>
+	 		    <option value="algerie"> algerie</option>
+	 		    <option value="egypte">egypte</option>
+	 	    </optgroup>
+	 	    <optgroup label="amerique">
+	 	    	 <option value="canda">canada</option>
+	 	    </optgroup>
+	 	</select>
+	 </form><br>
+
+	 <form method="post" action="traitement.php">
+
+	 	<label for="prenom"> entrer votre Prenom</label>
+	 	<input type="text" name="prenom" id="prenom" autocomplete="on"><br><br>
+
+	 	<label for="nom"> entrer votre nom</label>
+	 	<input type="text" id="nom" name="" autofocus="autofocus"><br><br>
+
+	 	<label for="nombre">choisissez un nombre entre 1 et 10</label>
+	 	<input type="number" id="nombre" name="nombre" min="-101" max="1022"><br><br>
+
+	 	<label for="profil"> un  Informaticien</label>
+	 	<input type="text" name="">
+
+	 	<input type="submit" value="envoyer" ><br><br>
+
+	 </form>
+
+
+</body>
+</html>
